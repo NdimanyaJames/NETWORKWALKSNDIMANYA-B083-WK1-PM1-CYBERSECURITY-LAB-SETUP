@@ -11,12 +11,6 @@ I downloaded 7-Zip from its official website and installed it on my Windows comp
 
 I downloaded and installed Oracle VirtualBox. VirtualBox provides a virtual environment that allows Kali Linux to run on my Windows computer without replacing the host operating system.
 
-**Screenshot:**
-
-![VirtualBox Installation](screenshots/02-virtualbox-installed.png)
-
----
-
 ## Step 3: Creating a NAT Network
 
 I created a NAT Network in VirtualBox to allow the Kali Linux virtual machine to communicate with external networks and access the internet.
@@ -33,12 +27,6 @@ The network was configured with the following settings:
 I downloaded the Kali Linux VirtualBox virtual machine image. After downloading, I extracted the files using 7-Zip and opened the `.vbox` virtual machine configuration file in VirtualBox.
 
 This successfully added Kali Linux to VirtualBox.
-
-**Screenshot:**
-
-![Kali Linux Imported in VirtualBox](screenshots/04-kali-imported.png)
-
----
 
 ## Step 5: Configuring the Virtual Machine Network Adapter
 
